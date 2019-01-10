@@ -1,6 +1,7 @@
 # Prerequisites
 *.d
 build
+*.swp
 # Compiled Object files
 *.slo
 *.lo
