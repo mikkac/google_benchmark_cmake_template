@@ -17,7 +17,7 @@ Workaround which I found usefull is adding `set(CMAKE_POSITION_INDEPENDENT_CODE 
 After that, you can simply:
 ```
 mkdir build && cd build
-cmake .. -DCMAKE_BUILD_TYPE_RELEASE
+cmake .. -DCMAKE_BUILD_TYPE=RELEASE
 make -j4
 sudo make install
 ```
