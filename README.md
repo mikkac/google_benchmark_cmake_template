@@ -21,3 +21,14 @@ cmake .. -DCMAKE_BUILD_TYPE=RELEASE
 make -j4
 sudo make install
 ```
+## Usage
+To run benchmark, use `run_benchmark.sh` script. It's possible to choose a build type (Release or Debug). To do it, run
+the script in following way:
+```
+./run_benchmark.sh Release
+```
+or
+```
+./run_benchmark.sh Debug
+```
+If script will be run without any parameter, build type will be set to Release by default.
